@@ -15,3 +15,25 @@ const faithText = document.querySelector('#faith')
 const spiritText = document.querySelector('#spirit')
 const honeyText = document.querySelector('#honey')
 const demonStats = document.querySelector('#demonStats')
+
+const demonHealthText = document.querySelector('#demonHealth')
+
+function goStore() {
+    console.log('Going to store');
+}
+
+function goChurch() {
+    console.log('Going to church');
+}
+
+function goCave() {
+    console.log('Going to cave');
+}
+
+function fightDemon() {
+    console.log('Fighting demon');
+}
+
+// initialize buttons
+
+button1.onClick = goStore();
