@@ -127,6 +127,8 @@ function buyWeapon() {
         text.innerText = `You bought a ${newWeapon}`;
         inventory.push(newWeapon);
         text.innerText += `You have ${inventory}` + inventory;
+    } else {
+        text.innerText = 'You need more honey to buy a weapon. Go to the cave to get more honey.';
     }
 }
 
